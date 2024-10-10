@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    display: inline;
+    text-align: center;
+}
+
+.score > p {
+    font-family: Tahoma, sans-serif;
+    font-size: 20;
+    font-weight: bold;
+}
+
+.playfield {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    grid-template-rows: repeat(4, 90px);
+    gap: 5px;
+}
+
+.tile {
+    background-color: green;
+}
